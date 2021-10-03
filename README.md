@@ -36,3 +36,5 @@ config.sample.ini中填入个人信息、参数设置，修改文件名为config
 ## 声明
 
 本脚本为喜欢运动、约不上场、且懂点儿技术的同学节省一点儿开发时间，希望各位用户在可控范围内传播，避免爬虫内卷，☆⌒(*＾-゜)v THX!!
+
+受[PKUAutoElective](https://github.com/zhongxinghong/PKUAutoElective)启发并复用了部分源码。
