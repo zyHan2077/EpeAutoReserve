@@ -25,9 +25,9 @@ def searchForAppropSite(r, date, ts, sites, length):
     avails = []
     for t in ts:
         timeId.append(timeMap[t]["id"])
-    for s in sites:
-        ls = spaceMap[s]
-        for tId in timeId:
+    for tId in timeId:
+        for s in sites:
+            ls = spaceMap[s]
             if ls[str(tId)]["reservationStatus"] == 1:
                 flag = True
                 for i in range(1, length):
